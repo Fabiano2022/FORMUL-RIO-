@@ -18,7 +18,7 @@ Desafio curso Rocketseat ensino de tecnologias WEB - Montando formulário do zer
 <br>
 
 <p align="center">
-  <img alt="FORMULÁRIO MENTORIA" src="https://raw.githubusercontent.com/gist/Fabiano2022/f4847c279772229b25c09b3a1901de0e/raw/0879084e118a781e69a371e488a88d0dc830e12e/formulariofigma.svg" width="100%">
+  <img alt="FORMULÁRIO MENTORIA" src="https://raw.githubusercontent.com/gist/Fabiano2022/f4847c279772229b25c09b3a1901de0e/raw/0879084e118a781e69a371e488a88d0dc830e12e/formulariofigma.svg" width="50%">
 </p>
 
 ## 🚀 Tecnologias
