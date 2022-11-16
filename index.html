@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Mentoria</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+        <div class="page">
+
+            <header>
+                <h1>
+                    Mentoria
+                </h1>
+                <p>
+                    Preencha o formulário abaixo para <br>
+                    agendar a sua mentoria
+                </p>
+            </header>
+        
+    <form id="enviarform">
+        <fieldset>
+            <legend>
+                INFORMAÇÕES PESSOAIS
+            </legend>
+
+            <div class="dadospessoais">
+            <div class="input-wrapper">
+                <label for="name">Nome</label>
+                <input type="text" name="name" required />
+            </div>
+
+            <div class="input-wrapper">
+                <label for="lastname">Sobrenome</label>
+                <input type="text" name="lastname" required />
+            </div>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="putemail">Email <span>(digite um e-mail válido)</span> </label>
+                <input type="email" name="putemail"required />
+            </div>
+
+            <div class="input-wrapper">
+                <label for="putpassword">Senha <span>(mínimo de 6 caracteres)</span> </label>
+                <input type="password" name="putpassword"required minlength="6"/>
+            </div>                                                 
+        </fieldset>
+                
+        <fieldset>
+            <legend>
+                    INFORMAÇÕES DO MENTOR
+            </legend>
+            <div class="input-wrapper">
+                <label for="putmentor">Nome do seu mentor
+                <span>(somente o primeiro nome)</span> </label>
+                <input type="text" name="putmentor"required />
+            </div>                                            
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                    SEUS HORÁRIOS DISPONÍVEIS
+            </legend>
+
+                <h1>PRIMEIRA MENTORIA</h1>
+
+            <div class="horarios">
+                               
+            <div class="input-wrapper">
+                <label for="putdate">Data
+                <span>(DD/MM/AAAA)</span> </label>
+                <input type="date" name="putdate"required />
+            </div>
+
+            <div class="input-wrapper">
+                <label for="putdas">Das</label>
+                <input type="time" name="putdas"required />
+            </div>
+
+            <div class="input-wrapper">
+                <label for="putate">Até</label>
+                <input type="time" name="putate"required />
+            </div>                                 
+            </div>
+
+            <h1>SEGUNDA MENTORIA</h1>
+
+            <div class="horarios">
+                               
+            <div class="input-wrapper">
+                <label for="putdate">Data
+                <span>(DD/MM/AAAA)</span> </label>
+                <input type="date" name="putdate"required />
+            </div>
+
+            <div class="input-wrapper">
+                <label for="putdas">Das</label>
+                <input type="time" name="putdas"required />
+            </div>
+
+            <div class="input-wrapper">
+                <label for="putate">Até</label>
+                <input type="time" name="putate"required />
+            </div>                                 
+            </div>
+        </fieldset>
+            
+        </form>
+            <footer>            
+                <input type="submit" 
+                value="SALVAR"
+                form="enviarform">                            
+            </footer>            
+            </div>
+           
+        
+            </div>
+
+</body>
+</html>
